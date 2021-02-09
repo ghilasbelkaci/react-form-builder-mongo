@@ -21,7 +21,7 @@ const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler(); // part of next config
 
 //const MONGO_URL = 'mongodb://localhost:27017';
-const MONGO_URL = 'mongodb+srv://ghilas:ghilas@cluster0.wflg5.mongodb.net/test?retryWrites=true&w=majority';
+const MONGO_URL =  'mongodb+srv://hassiba:AHRHSZ0go2IgW1MJ@cluster0.owb8s.mongodb.net/builder?retryWrites=true&w=majority';
 const dbName = 'test';
 
 // Fix crash with react-datepicker
